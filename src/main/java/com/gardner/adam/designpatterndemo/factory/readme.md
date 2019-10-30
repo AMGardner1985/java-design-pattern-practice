@@ -19,6 +19,7 @@ Concrete Classes
 
 Parameterized create method
 
+Subclasses involved
 
  ## UML
  ![factory uml](./factoryUML.png)
@@ -34,3 +35,9 @@ Parameterized create method
  * Example is simple version or example
  * Demo = coded demo
    * WebsiteFactory => calls constructor of type item to create
+   
+ ## Summary
+ * Parameter Driven
+ * Solves complex creation in different pattern
+ * a little complex
+ * opposite of a singleton
