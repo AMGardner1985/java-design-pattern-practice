@@ -9,7 +9,7 @@ public class AbstractFactoryEverydayExample {
 
     public static void main(String[] args) throws Exception {
 
-        String xml = "<document><body><stock>AAPL</stock></body>,/document>";
+        String xml = "<document><body><stock>AAPL</stock></body>,</document>";
 
         ByteArrayInputStream bais = new ByteArrayInputStream(xml.getBytes());
 
